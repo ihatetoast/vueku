@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Vueku</title>
+  </head>
+  <body>
+    <header>
+      <h1>Vueku</h1>
+      <p>A haiku generator built with VueJS</p>
+    </header>
+    <aside>
+      <figure>
+        <q>By far the best haiku builder on the market today!</q>
+        <figcaption>&ndash; Bob's Mom</figcaption>
+      </figure>
+      <figure>
+        <q>
+            Vueku is my go-to haiku generator for when I'm at a loss for words.
+            What I like most is the option to change it line by line. I'm a busy
+            man. I can't be bothered counting syllables.
+        </q>
+        <figcaption>&ndash; Steve Buscemi</figcaption>
+      </figure>
+    </aside>
+    <main>
+      <div><p>Instructions here, Shakespear</p></div>
+      <div id="app">
+        <ul>
+          <li><p>Line 1, 5 syllables</p><button>change</button></li>
+          <li><p>Line 2, 7 syllables</p><button>change</button></li>
+          <li><p>Line 3, 5 syllables</p><button>change</button></li>
+        </ul>
+        <button>Generate haiku</button>
+      </div>
+    </main>
+    <footer>created by Katy Cassidy, ihatetoast</footer>
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
